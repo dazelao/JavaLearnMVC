@@ -3,6 +3,7 @@ package crudlearn.controllers;
 
 import crudlearn.dao.PersonDAO;
 import crudlearn.models.Person;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -14,6 +15,7 @@ public class PeopleController {
 
     private PersonDAO personDAO;
 
+    @Autowired
     public PeopleController(PersonDAO personDAO) {
         this.personDAO = personDAO;
     }
@@ -33,16 +35,15 @@ public class PeopleController {
 
     }
     @GetMapping("/new")
-    public String newPerson(Model model)
+    public String newPerson(@ModelAttribute("person") Person person)
     {
-        model.addAttribute("person", new Person() );
         return "people/new";
     }
     @PostMapping()
     public String create(@ModelAttribute("person") Person person){
 
         personDAO.save(person);
-        return "redirect:/peolpe";
+        return "redirect:/people";
 
     }
 
