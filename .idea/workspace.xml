@@ -9,17 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a5f436-2090-49c1-b6c5-4c821d321697" name="Changes" comment="SpringLearn 1.0 fix">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+    <list default="true" id="66a5f436-2090-49c1-b6c5-4c821d321697" name="Changes" comment="SpringLearn 1.2 add edit + del">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/crudlearn/config/MySpringMvcDispatcherSerlvetIntitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crudlearn/config/MySpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crudlearn/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crudlearn/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/crudlearn/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crudlearn/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/crudlearn/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crudlearn/dao/PersonDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/crudlearn/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crudlearn/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +69,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "spring.configuration.checksum": "58eee46feee3066bf98ea8a44572180a"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -172,6 +175,7 @@
       <updated>1679850272651</updated>
       <workItem from="1679850274510" duration="3632000" />
       <workItem from="1679865544268" duration="4543000" />
+      <workItem from="1679898378469" duration="6825000" />
     </task>
     <task id="LOCAL-00001" summary="SpringLearn 1.0">
       <created>1679853332485</created>
@@ -187,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679853796211</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SpringLearn 1.2 add edit + del">
+      <created>1679898690661</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679898690661</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +218,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SpringLearn 1.0" />
     <MESSAGE value="SpringLearn 1.0 fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringLearn 1.0 fix" />
+    <MESSAGE value="SpringLearn 1.2 add edit + del" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringLearn 1.2 add edit + del" />
   </component>
 </project>
